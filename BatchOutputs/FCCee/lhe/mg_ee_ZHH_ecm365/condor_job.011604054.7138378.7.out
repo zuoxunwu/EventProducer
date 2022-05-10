@@ -1,0 +1,5 @@
+------------GOOD COPY
+Now generating 100000 events with random seed 9921379 and granularity 1
+write ./events.lhe.gz
+finished run
+lhe file successfully copied on eos
