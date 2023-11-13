@@ -151,6 +151,7 @@ pythialist={
 
     
     'p8_ee_Zbb_ecm91':['Z/Gamma* ecm=91.188GeV to bb','inclusive decays','','6645.46','1.0','1.0'],     # win2023: 6600.53
+    'p8_ee_Zbb_DIRAC_ecm91':['Z/Gamma* ecm=91.188GeV to bb','inclusive decays','','6645.46','1.0','1.0'],     # win2023: 6600.53
     'p8_ee_Zcc_ecm91':['Z/Gamma* ecm=91.188GeV to cc','inclusive decays','','5215.46','1.0','1.0'],     # win2023: 5184.19
     'p8_ee_Zuds_ecm91':['Z/Gamma* ecm=91.188GeV to uds','inclusive decays','','18616.5','1.0','1.0'],
     'p8_ee_Zss_ecm91':['Z/Gamma* ecm=91.188GeV to ss','','','5215.46','1.0','1.0'],
@@ -328,6 +329,7 @@ pythialist={
     'p8_noBES_ee_Ztautau_ecm91_EvtGen_TauMinus2PiPiPinu':['Z/Gamma* ecm=91.188GeV to tautau', 'tau- -> 3pi nu','','137.3','1.0','1.0'],
 
     'p8_ee_Zbb_ecm91_EvtGen_Bd2KsNuNu':['Z/Gamma* ecm=91.188GeV to bb', 'Bd to Ks nunu','','1.0','1.0','1.0'],
+    'p8_ee_Zbb_ecm91_EvtGen_Bs2PhiKs':['Z/Gamma* ecm=91.188GeV to bb','Bs to Phi(KK) Ks(pi+pi-)','','1.0','1.0','1.0'],
 
 }
 
@@ -602,6 +604,22 @@ gridpacklist = {
     'wzp6_ee_tbjj_singleTop_ecm365':['t B jj (+cc), j=udcs, tB pair from a W, ecm=365 GeV','inc. top decays','','5.989e-3','1.0','1.0'],
     'wzp6_egamma_eZ_Zbb_ecm365':['e(e)Z EPA, e- gamma, ecm=365 GeV','Z to bb','','615.2e-3','1.0','1.0'],
     'wzp6_gammae_eZ_Zbb_ecm365':['e(e)Z EPA, e+ gamma, ecm=365 GeV','Z to bb','','615.2e-3','1.0','1.0'],
+
+# ee->H + background, ecm = 125 GeV:
+    'wzp6_ee_l1l2nunu_ecm125':['ee -> l1l2nunu (l1!=l2, no H) ecm=125GeV','','','5.799e-03','1.0','1.0'],
+    'wzp6_ee_eenunu_ecm125':['ee -> eenunu (no H) ecm=125GeV','','','3.364e-01','1.0','1.0'],
+    'wzp6_ee_mumununu_ecm125':['ee -> mumununu (no H) ecm=125GeV','','','2.202e-01','1.0','1.0'],
+    'wzp6_ee_tautaununu_ecm125':['ee -> tautaununu (no H) ecm=125GeV','','','4.265e-02','1.0','1.0'],
+
+    'wzp6_ee_enueqq_ecm125':['ee -> enuqq (no H) ecm=125GeV','','','1.382e-02','1.0','1.0'],
+    'wzp6_ee_munumuqq_ecm125':['ee -> munuqq (no H) ecm=125GeV','','','6.711e-03','1.0','1.0'],
+    'wzp6_ee_taunutauqq_ecm125':['ee -> taunuqq (no H) ecm=125GeV','','','6.761e-03','1.0','1.0'],
+    'wzp6_ee_qq_ecm125':['ee -> qq, ecm=125GeV','','','3.631E+02','1.0','1.0'],
+
+    'wzp6_ee_Hllnunu_ecm125':['ee -> H-> WW ecm=125GeV','H->WW*->llnunu','','3.187e-05','1.0','1.0'],
+    'wzp6_ee_Hlnuqq_ecm125':['ee -> H ecm=125GeV','H->WW*->lnuqq','','4.584e-05','1.0','1.0'],
+    'wzp6_ee_Hqqlnu_ecm125':['ee -> H-> WW ecm=125GeV','H->WW*->qqlnu','','3.187e-05','1.0','1.0'],
+    'wzp6_ee_Hgg_ecm125':['ee -> H-> gg, ecm=125GeV','','','7.384e-05','1.0','1.0'],
 
 
 }
