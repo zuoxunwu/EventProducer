@@ -23,7 +23,7 @@
 #
 ########################################################################
 #
-#    e+ e- -> t tbar at 365 GeV inclusive decays. Polarization kept
+#    e+ e- -> t tbar at 365 GeV factorized decays. Polarization kept
 #
 #    Whizard version is 3.1.0, as in key4hep-stack/2023-04-08
 #
@@ -44,9 +44,9 @@ process W_dec = Wp => E2, n2
 
 polarized t, T, Wp, Wm
 
-beams = e1, E1 => gaussian => isr
-?keep_beams  = true    
-?keep_remnants = true
+#beams = e1, E1 => gaussian => isr
+#?keep_beams  = true    
+#?keep_remnants = true
 #
 #! beams = e1, E1 => gaussian 
 #gaussian_spread1 = 0.221%
